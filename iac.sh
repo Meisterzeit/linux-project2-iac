@@ -10,7 +10,8 @@ apt-get install apache2 -y
 
 apt install unzip 
 
-echo ˝Baixando e copiando os arquivos... 
+
+echo ˝Baixando e copiando os arquivos...˝ 
 
 cd /tmp
 
@@ -22,3 +23,4 @@ cd linux-site-dio-main
 
 cp -R * /var/www/html 
  
+echo ˝Processos finalizados, servidor apache online no localhost˝
